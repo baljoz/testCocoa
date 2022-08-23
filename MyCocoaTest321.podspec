@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Mapp Digital" => "https://mapp.com/contact-us/" }
   s.source       = { :git => "https://github.com/baljoz/testCocoa.git", :tag => "#{s.version}" }
   s.ios.framework ='WebKit'
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "13.0"
   s.ios.vendored_frameworks = "SDK/AppoxeeSDK.xcframework"
   s.preserve_paths = 'SDK/AppoxeeSDK.xcframework'
   
