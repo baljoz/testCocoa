@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Custom", :file => "SDKLicence.txt" }
   s.author       = { "Mapp Digital" => "https://mapp.com/contact-us/" }
   s.source       = { :git => "https://github.com/baljoz/testCocoa.git", :tag => "#{s.version}" }
-  s.ios.framework ='WebKit'
+  s.ios.framework = 'WebKit'
   s.platform     = :ios, "13.0"
-  s.ios.vendored_frameworks = "SDK/AppoxeeSDK.xcframework"
-  s.preserve_paths = 'SDK/AppoxeeSDK.xcframework'
+    s.ios.vendored_frameworks = "SDK/StorifyMe.xcframework"
+  s.preserve_paths = 'SDK/StorifyMe.xcframework'
   
 
 end
