@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/baljoz/testCocoa.git", :tag => "#{s.version}" }
   s.ios.framework = 'WebKit'
   s.platform     = :ios, "13.0"
-    s.ios.vendored_frameworks = "SDK/StorifyMe.xcframework"
+  s.ios.vendored_frameworks = "SDK/StorifyMe.xcframework"
   s.preserve_paths = 'SDK/StorifyMe.xcframework'
   
 
