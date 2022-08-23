@@ -1,0 +1,3 @@
+# testCocoa
+
+    pod 'MyCocoaTest321'
