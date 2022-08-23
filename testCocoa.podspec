@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/baljoz/testCocoa.git", :tag => spec.version.to_s }
 
-spec.ios.vendored_frameworks = "SDK/StorifyMe.framework"
+spec.ios.vendored_frameworks = "SDK/AppoxeeSDK.xcframework"
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
